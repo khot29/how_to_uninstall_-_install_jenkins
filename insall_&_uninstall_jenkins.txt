@@ -1,0 +1,26 @@
+How to uninstall jenkins on ubuntu:
+1.sudo apt-get remove --purge jenkins
+2.sudo rm /etc/apt/sources.list.d/jenkins.list
+3.sudo rm /etc/apt/sources.list.d/jenkins.list.save
+4.apt-get upgrade
+
+
+How to install jenkins on ubuntu:
+
+first check java version 
+1.java -version (if not install use sudo apt-get install openjdk-8-jdk)
+2.wget -q -O - https://jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add - (this command should give output : ok)
+3.sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
+4.sudo apt-get update 
+5.sudo apt-get install jenkins
+6.sudo service jenkins status (there should be dead written in front of Active)
+7.sudo systemctl start jenkins
+8.sudo systemctl status jenkins
+9.then go to http://localhost:8080/ in chrome
+10.sudo cat /var/lib/jenkins/secrets/initialAdminPassword (copy the command using right click copy)
+11.click on installed suggested plugin.
+12.set up username and password (you can also skip this part)
+13.and now open again http://localhost:8080/ login page will appear.
+--14.if you have skip the username and password stepup 
+     use username as admin and use the password what you have put in step 10
+
