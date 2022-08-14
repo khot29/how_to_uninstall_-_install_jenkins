@@ -2,7 +2,6 @@
 PG DO - CI/CD Pipeline with Jenkins Simplilearn 
 
 # AWS Ubuntu VM Provisioning steps
-'''
 -	Step 1:  Click on Launch Instance 
 -	Step 2 : Click on Software Image (AMI)
 -	Select Ubuntu 
@@ -14,7 +13,6 @@ PG DO - CI/CD Pipeline with Jenkins Simplilearn
 -	Step 6 : Select your VM and Click connect 
 -	Step 7 :  You can see the terminal 
 -	Step: Showing Github example
-'''
 
 # Git Status
 ```
@@ -28,9 +26,7 @@ cd  demo
 ## GIT & Ubuntu SSH connection
 ```
 ssh-keygen 
-
 "Hit enter button 3 time"
-
 cat ~/.ssh/id_rsa.pub 
 git clone git@github.com:manikcloud/Jenkins-cicd.git
 history 
@@ -49,7 +45,6 @@ sudo /etc/init.d/jenkins start
 service jenkins status 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 history | cut -c 8- 
-
 ```
 # Jenkins URL with port 8080
 - http://x.x.x.x.64:8080/
