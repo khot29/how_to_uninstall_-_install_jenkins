@@ -1,8 +1,6 @@
 How to uninstall jenkins on ubuntu:
 1.sudo apt-get remove --purge jenkins
-2.sudo rm /etc/apt/sources.list.d/jenkins.list
-3.sudo rm /etc/apt/sources.list.d/jenkins.list.save
-4.apt-get upgrade
+
 
 
 How to install jenkins on ubuntu:
