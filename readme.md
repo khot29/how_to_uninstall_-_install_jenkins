@@ -1,4 +1,4 @@
-# installing jenkins via docker on amazon linux
+# installing jenkins with docker on amazon linux
 - step 1 : sudo yum install docker 
 - step 2 : sudo systemctl enable docker
 - step 3 : sudo systemctl start docker
