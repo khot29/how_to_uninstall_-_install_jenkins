@@ -1,3 +1,19 @@
+# installing jenkins via docker 
+- step 1 : sudo yum install docker 
+- step 2 : sudo systemctl enable docker
+- step 3 : sudo systemctl start docker
+- step 4 : sudo docker pull jenkins/jenkins
+- step 5 : sudo docker run -dt --name jenkins -p 8080:8080 jenkins/jenkins
+- step 6 : for the password do not cat /var/jenkins_home/secrets/initialAdminPassword do this -----------> docker log jenkins  [note at the bottom you will get its password it will look like this f7d7e0eaa2414668a43b7203b3e596ea]
+
+
+
+
+
+
+
+
+
 # Jenkins-cicd
 PG DO - CI/CD Pipeline with Jenkins Simplilearn 
 
