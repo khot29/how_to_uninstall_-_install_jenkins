@@ -18,6 +18,7 @@
 sudo vi /var/lib/jenkins/config.xml
 ```
 
+
 ## GIT & Ubuntu SSH connection
 ```
 ssh-keygen 
