@@ -24,18 +24,6 @@ sudo vi /etc/default/jenkins
 ```
 
 
-## GIT & Ubuntu SSH connection
-```
-ssh-keygen 
-
-"Hit enter button 3 time"
-
-cat ~/.ssh/id_rsa.pub 
-git clone git@github.com:manikcloud/Jenkins-cicd.git
-history 
-history | cut -c 8- 
-```
-
 ## JENKINS INSTALLATION on UBUNTU 18.04, for Ubunt 22.04 please skip the step 3 & 4
 ```
 sudo apt-get update
