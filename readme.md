@@ -32,15 +32,11 @@ PG DO - CI/CD Pipeline with Jenkins Simplilearn
 -	Step 7 :  You can see the terminal 
 -	Step: Showing Github example
 
-# Git Status
+# To get into jenkins xml file 
 ```
-git --version 
+sudo vi /var/lib/jenkins/config.xml
 ```
-## cretae Dir 
-```
-mkdir demo 
-cd  demo 
-```
+
 ## GIT & Ubuntu SSH connection
 ```
 ssh-keygen 
