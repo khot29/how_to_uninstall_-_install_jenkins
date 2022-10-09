@@ -1,4 +1,4 @@
-# installing jenkins with docker on amazon linux
+## installing jenkins with docker on amazon linux
 ```
 - step 1 : sudo yum install docker 
 - step 2 : sudo systemctl enable docker
@@ -13,7 +13,7 @@
            [ note at the bottom you will get its password it will look like this f7d7e0eaa2414668a43b7203b3e596ea ]
 ```
 
-# To get into jenkins xml file 
+## To get into jenkins xml file 
 ```
 sudo vi /var/lib/jenkins/config.xml
 ```
@@ -31,7 +31,7 @@ history
 history | cut -c 8- 
 ```
 
-# JENKINS INSTALLATION on UBUNTU 18.04, for Ubunt 22.04 please skip the step 3 & 4
+## JENKINS INSTALLATION on UBUNTU 18.04, for Ubunt 22.04 please skip the step 3 & 4
 ```
 sudo apt-get update
 sudo apt install openjdk-8-jdk
@@ -46,12 +46,12 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 history | cut -c 8- 
 
 ```
-# Jenkins URL with port 8080
+## Jenkins URL with port 8080
 - http://x.x.x.x:8080/
 
 replace x with your ip 
 
-# Change Security group rule for Jenkins 
+## Change Security group rule for Jenkins 
 ```
 -	Select your instance 
 -	Down below select your security tab 
