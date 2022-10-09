@@ -1,5 +1,5 @@
 ## installing jenkins with docker on amazon linux
-```
+
 step 1 : sudo yum install docker 
 step 2 : sudo systemctl enable docker
 step 3 : sudo systemctl start docker
@@ -11,7 +11,7 @@ step 7 : open your browser and copy your public ip
 step 8 : for the password do not cat /var/jenkins_home/secrets/initialAdminPassword 
            do this -----------> docker log jenkins 
            [ note at the bottom you will get its password it will look like this f7d7e0eaa2414668a43b7203b3e596ea ]
-```
+
 ## To uninstall jenkins 
 ```
 sudo apt-get remove --purge jenkins
