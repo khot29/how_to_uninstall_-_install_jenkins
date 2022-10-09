@@ -46,10 +46,10 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
  Select your instance 
  Down below select your security tab 
- Click on the Security groups sg-0c51908b5fa4abf75 (launch-wizard-2)
+ Click on the Security groups 
  Click on the action 
  Click on EDIT INBOUND RULE
- Select custom TCP and put port 8080
+ Select custom TCP and put in which you have to run jenkins
  Custom ip should be 0.0.0.0/0
  Click on Save the rule
 ```
