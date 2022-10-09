@@ -39,10 +39,6 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 history | cut -c 8- 
 
 ```
-## Jenkins URL with port 8080
-- http://x.x.x.x:8080/
-
-replace x with your ip 
 
 ## Change Security group rule for Jenkins 
 ```
