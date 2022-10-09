@@ -12,6 +12,10 @@
            do this -----------> docker log jenkins 
            [ note at the bottom you will get its password it will look like this f7d7e0eaa2414668a43b7203b3e596ea ]
 ```
+## To uninstall jenkins 
+```
+sudo apt-get remove --purge jenkins
+```
 
 ## To get into jenkins xml file 
 ```
