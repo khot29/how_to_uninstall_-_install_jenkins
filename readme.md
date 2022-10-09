@@ -1,4 +1,5 @@
 # installing jenkins with docker on amazon linux
+```
 - step 1 : sudo yum install docker 
 - step 2 : sudo systemctl enable docker
 - step 3 : sudo systemctl start docker
@@ -7,19 +8,11 @@
 - step 6 : go to the inbound rule and add custom tcp in type and 8080 as a port range
 - step 7 : open your browser and copy your public ip  example: your public ip -----> http://23.11.132.159/ add 8080 to it http://23.22.127.153/8080 done!.
 - step 8 : for the password do not cat /var/jenkins_home/secrets/initialAdminPassword do this -----------> docker log jenkins [ note at the bottom you will get its password it will look like this f7d7e0eaa2414668a43b7203b3e596ea ]
+```
 
-
-
-
-
-
-
-
-
-# Jenkins-cicd
-PG DO - CI/CD Pipeline with Jenkins Simplilearn 
 
 # AWS Ubuntu VM Provisioning steps
+```
 -	Step 1:  Click on Launch Instance 
 -	Step 2 : Click on Software Image (AMI)
 -	Select Ubuntu 
@@ -31,7 +24,7 @@ PG DO - CI/CD Pipeline with Jenkins Simplilearn
 -	Step 6 : Select your VM and Click connect 
 -	Step 7 :  You can see the terminal 
 -	Step: Showing Github example
-
+```
 # To get into jenkins xml file 
 ```
 sudo vi /var/lib/jenkins/config.xml
