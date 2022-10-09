@@ -48,7 +48,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
  Down below select your security tab 
  Click on the Security groups 
  Click on the action 
- Click on EDIT INBOUND RULE
+ Click on edit inbound rule
  Select custom TCP and put in which you have to run jenkins
  Custom ip should be 0.0.0.0/0
  Click on Save the rule
