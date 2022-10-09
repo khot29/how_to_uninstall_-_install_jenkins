@@ -18,6 +18,11 @@
 sudo vi /var/lib/jenkins/config.xml
 ```
 
+## To change jenkins running port 
+```
+sudo vi /etc/default/jenkins
+```
+
 
 ## GIT & Ubuntu SSH connection
 ```
