@@ -81,22 +81,4 @@ replace x with your ip
 -	Click on Save the rule
 ```
 
-# common error
 
-```
-getting "E: Unable to locate package openjdk-8-jdk" message on java update
-```
-
-# Resolution 
-Run this command
-
-```
-sudo apt update
-```
-# Plugin Installation 
-dashboard>manage>jenkins>manage plugins>maven integration
-
-
-# References: 
-1. https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
-2. https://maven.apache.org/download.cgi
