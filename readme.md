@@ -28,7 +28,7 @@ sudo vi /etc/default/jenkins
 ```
 
 
-## JENKINS INSTALLATION on UBUNTU 18.04, for Ubunt 22.04 please skip the step 3 & 4
+## jenkins installation on ubuntu 
 ```
 sudo apt-get update
 sudo apt install openjdk-8-jdk
@@ -40,8 +40,6 @@ sudo apt install jenkins
 sudo /etc/init.d/jenkins start
 sudo service jenkins status 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-history | cut -c 8- 
-
 ```
 
 ## Change Security group rule for Jenkins 
