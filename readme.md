@@ -9,7 +9,7 @@
 - step 7 : open your browser and copy your public ip  
            example: your public ip -----> http://23.11.132.159/ add 8080 to it http://23.22.127.153/8080 done!.
 - step 8 : for the password do not cat /var/jenkins_home/secrets/initialAdminPassword 
-           do this -----------> docker log jenkins 
+           do this -----------> docker logs jenkins 
            [ note at the bottom you will get its password it will look like this f7d7e0eaa2414668a43b7203b3e596ea ]
 
 ## To uninstall jenkins 
