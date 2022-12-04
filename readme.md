@@ -28,7 +28,7 @@ sudo vi /etc/default/jenkins
 ```
 
 
-## jenkins installation on ubuntu 
+## jenkins installation in ubuntu 
 ```
 sudo apt-get update
 sudo apt install openjdk-8-jdk
