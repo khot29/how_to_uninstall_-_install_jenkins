@@ -30,18 +30,25 @@ sudo vi /etc/default/jenkins
 
 ## jenkins installation on ubuntu 
 ```
-sudo apt-get install openjdk-11-jdk-headless
+sudo apt update
 
-curl -fsSL https://pkg.jenkins.io/debian/jenkins.io.key | sudo tee
+java -version
 
-echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
-    https://pkg.jenkins.io/debian binary/ | sudo tee 
+sudo apt install openjdk-11-jdk-headless
 
-sudo apt-get update
+java -version
 
-sudo apt-get install jenkins
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key |sudo gpg --dearmor -o /usr/share/keyrings/jenkins.gpg
 
-systemctl status jenkins
+sudo sh -c 'echo deb [signed-by=/usr/share/keyrings/jenkins.gpg] http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+
+sudo apt update
+
+sudo apt install jenkins
+
+sudo systemctl start jenkins.service
+
+sudo systemctl status jenkins
 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
